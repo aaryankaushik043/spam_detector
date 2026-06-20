@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS junk
+Thumbs.db
+desktop.ini
+
+# Windows reserved-name artifact (created accidentally during shell redirects)
+nul
+
+# Large/regenerable model artifacts (uncomment to exclude from git;
+# we KEEP them here so the repo runs out-of-the-box, but they're large)
+# models/*.pkl
+# models/*.png
