@@ -1,4 +1,4 @@
-# 🛡️ st."Spam Detector"
+# 🛡️ "Spam Detector"
 
 An **AI-powered SMS / email spam classifier** with a modern, animated web UI.
 Built as **Task 5 — AI Mini Project**.
