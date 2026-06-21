@@ -85,7 +85,7 @@ python train_model.py      # trains + saves model + metrics + confusion matrix
 ```bash
 streamlit run app.py
 ```
-Then open **http://localhost:8501** in your browser.
+Then open **http://localhost:8502** in your browser.
 
 > 💡 If `streamlit` isn't on your PATH, run it as a module:
 > `python -m streamlit run app.py`
