@@ -13,8 +13,9 @@ env/
 .venv/
 ENV/
 
-# Streamlit
-.streamlit/
+# Streamlit (keep the port config.toml, ignore everything else)
+.streamlit/*
+!.streamlit/config.toml
 
 # IDE / editor
 .vscode/

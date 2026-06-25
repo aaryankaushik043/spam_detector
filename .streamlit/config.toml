@@ -1,0 +1,13 @@
+# Spam Detector - fixed port config
+# This guarantees the app ALWAYS runs on port 8502, so it never clashes
+# with the Sentiment Analyzer (which runs on 8501).
+#
+# Launch with:  streamlit run app.py
+# Open:         http://localhost:8502
+
+[server]
+port = 8502
+headless = true
+
+[browser]
+gatherUsageStats = false
