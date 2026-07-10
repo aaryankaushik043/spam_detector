@@ -1,5 +1,9 @@
 {
-  "installCommand": "echo 'Skipping install'",
-  "buildCommand": "echo 'Skipping build'",
-  "outputDirectory": "public"
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
+    }
+  ]
 }
