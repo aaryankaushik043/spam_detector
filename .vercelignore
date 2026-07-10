@@ -1,0 +1,2 @@
+# Ignore python requirements file to prevent Vercel from trying to build it as a serverless python app
+requirements.txt
